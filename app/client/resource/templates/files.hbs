@@ -1,0 +1,10 @@
+<div class="files">
+	<h2>There are {{model.length}} files:</h2>
+	<ul>
+		{{#each model in controller}}
+			<li><a {{bind-attr href=model.fullPath}}>{{model.fileName}}.txt</a><span class="delete">-----<button {{action 'del' model}}>Delete</button></span></li>
+		{{else}}
+			<li>No files :(</li>
+		{{/each}}
+	</ul>
+</div>

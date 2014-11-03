@@ -1,0 +1,1 @@
+(function(){App.Router.map(function(){return this.resource("files",{path:"/files"}),this.resource("create",{path:"/create"}),this.resource("file",{path:"/files/:fileName"})})}).call(this);

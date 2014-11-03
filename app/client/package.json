@@ -1,0 +1,16 @@
+{
+  "name": "zk-app",
+  "description": "a webapp project demo based on emberjs and coffee-script",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-connect": "~0.4.1",
+    "grunt-contrib-cssmin": "~0.4.0",
+    "grunt-contrib-uglify": "~0.2.0",
+    "grunt-contrib-watch": "~0.4.4",
+    "grunt-contrib-less": "*",
+    "grunt-contrib-coffee": "*",
+    "grunt-ember-templates": "*"
+  }
+}

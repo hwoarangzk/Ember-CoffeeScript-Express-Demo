@@ -1,0 +1,17 @@
+<div class="create">
+	<div class="row">
+		<label>File Name:</label>
+	</div>
+	<div class="row">
+		{{input valueBinding=fileName}}.txt
+	</div>
+	<div class="row">
+		<label>File Content:</label>
+	</div>
+	<div class="row">
+		{{textarea valueBinding=fileContent rows="10" cols="50"}}
+	</div>
+	<div class="row">
+		<button id="save" {{action 'save'}}>Save</button>
+	</div>
+</div>

@@ -1,0 +1,81 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	width: 1024px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 16px;
+	font-family: "microsoft yahei";
+
+	a {
+		text-decoration: none;
+	}
+
+	.head-nav {
+		text-align: center;
+		font-size: 16px;
+		.nav-ul {
+			list-style-type: none;
+			li {
+				display: inline-block;
+				margin: 10px 5px;
+				padding: 3px;
+				border-radius: 3px;
+				-webkit-border-radius: 3px;
+				a.active {
+					background: red;
+				}
+				&:hover {
+					background: #eee;
+				}
+				&.spliter {
+					width: 1px;
+					height: 15px;
+					background: #000;
+				}
+			}
+		}
+	}
+
+	.main {
+		text-align: center;
+		margin-top: 20px;
+
+		.files {
+			width: 400px;
+			text-align: left;
+
+			.delete {
+				float: right;
+				display: none;
+			}
+
+			li:hover {
+				.delete {
+					display: inline;
+					cursor: pointer;
+				}
+			}
+
+		}
+
+		.create {
+			text-align: left;
+			width: 375px;
+			.row {
+				margin-top: 10px;
+			}
+			label {
+				font-size: 15px;
+				font-weight: bold;
+			}
+			#save {
+				float: right;
+				margin-right: 5px;
+			}
+		}
+	}
+}
